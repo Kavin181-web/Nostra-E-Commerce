@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections | Nostra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">Nostra</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <h2 class="section-title">Our Collections</h2>
+
+        <div class="filter-bar">
+            <input type="text" id="search" placeholder="Search products..." onkeyup="searchProduct()">
+            <select id="filter" onchange="filterProduct()">
+                <option value="all">All Items</option>
+                <option value="clothing">Clothing</option>
+                <option value="footwear">Footwear</option>
+                <option value="accessories">Accessories</option>
+            </select>
+        </div>
+
+        <div class="product-grid" id="productList">
+            <div class="card" data-category="clothing">
+                <img src="images/img6.jpg">
+                <h3>Checked Casual Shirt</h3>
+                <p class="price">₹899</p>
+            </div>
+            <div class="card" data-category="clothing">
+                <img src="images/img4.jpg">
+                <h3>Denim Shirt</h3>
+                <p class="price">₹1299</p>
+            </div>
+
+            <div class="card" data-category="clothing">
+                <img src="images/img5.jpg">
+                <h3>Premium Shirt</h3>
+                <p class="price">₹1299</p>
+            </div>
+
+            <div class="card" data-category="footwear">
+                <img src="images/img3.jpg">
+                <h3>Sport Sneakers</h3>
+                <p class="price">₹1599</p>
+            </div>
+
+            <div class="card" data-category="footwear">
+                <img src="images/img2.jpg">
+                <h3>Sport Sneakers</h3>
+                <p class="price">₹1999</p>
+            </div>
+
+            <div class="card" data-category="footwear">
+                <img src="images/img1.jpg">
+                <h3>Sport Sneakers</h3>
+                <p class="price">₹999</p>
+            </div>
+
+            <div class="card" data-category="accessories">
+                <img src="images/img7.jpg">
+                <h3>Special Edition Watch</h3>
+                <p class="price">₹2999</p>
+            </div>
+
+            <div class="card" data-category="accessories">
+                <img src="images/img8.jpg">
+                <h3>Premium Watch</h3>
+                <p class="price">₹1999</p>
+            </div>
+
+            <div class="card" data-category="accessories">
+                <img src="images/img9.jpg">
+                <h3>Luxury Watch</h3>
+                <p class="price">₹2599</p>
+            </div>
+
+            <div class="card" data-category="accessories">
+                <img src="images/img10.jpg">
+                <h3>Elegant Kurti</h3>
+                <p class="price">₹2599</p>
+            </div>
+
+
+            <div class="card" data-category="accessories">
+                <img src="images/img11.jpg">
+                <h3>Floral Summer Dress</h3>
+                <p class="price">₹2599</p>
+            </div>
+
+
+
+            <div class="card" data-category="accessories">
+                <img src="images/img12.jpg">
+                <h3>Designer Kids Dress</h3>
+                <p class="price">₹2599</p>
+            </div>
+
+            <div class="card" data-category="accessories">
+                <img src="images/img13.jpg">
+                <h3>Casual Slide Sandals</h3>
+                <p class="price">₹2599</p>
+            </div>
+
+            <div class="card" data-category="accessories">
+                <img src="images/img14.jpg">
+                <h3>Sporty Comfort Slippers</h3>
+                <p class="price">₹2599</p>
+            </div>
+
+            <div class="card" data-category="accessories">
+                <img src="images/img15.jpg">
+                <h3>Classic Crocs Clogs</h3>
+                <p class="price">₹2599</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
