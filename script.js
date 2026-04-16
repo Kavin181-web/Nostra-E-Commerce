@@ -1,4 +1,4 @@
-// --- IMAGE SLIDER LOGIC ---
+// IMAGE SLIDER LOGIC
 let slides = document.querySelectorAll(".slide");
 let slideIndex = 0;
 
@@ -16,7 +16,7 @@ if (slides.length > 0) {
     setInterval(nextSlide, 5000);
 }
 
-// --- SEARCH LOGIC (Collections Page) ---
+// SEARCH LOGIC (Collections Page)
 function searchProduct() {
     let searchTerm = document.getElementById("search").value.toLowerCase();
     let productCards = document.querySelectorAll(".card");
@@ -27,7 +27,7 @@ function searchProduct() {
     });
 }
 
-// --- FILTER LOGIC (Collections Page) ---
+//FILTER LOGIC (Collections Page)
 function filterProduct() {
     let selectedCategory = document.getElementById("filter").value;
     let productCards = document.querySelectorAll(".card");
